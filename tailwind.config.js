@@ -10,7 +10,11 @@ module.exports = {
         'survivor-leon':'url("../../img/survivor-leon.png")',
         'survivor-cheryl':'url("../../img/survivor-cheryl.png")',
         
+      },
+      fontFamily:{
+        'roboto-condensed':['Roboto Condensed', 'sans-serif']
       }
+      
     },
   },
   plugins: [],
