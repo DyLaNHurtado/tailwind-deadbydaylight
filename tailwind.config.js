@@ -5,10 +5,10 @@ module.exports = {
     extend: {
       backgroundImage:{
         'dbd-main-art':'url("../../img/dbd_keyart.jpg")',
-        'killer-ghostface':'url("../../img/killer-Ghostface.png")',
-        'killer-pig':'url("../../img/killer-pig.png")',
-        'survivor-leon':'url("../../img/survivor-leon.png")',
-        'survivor-cheryl':'url("../../img/survivor-cheryl.png")',
+        'killer-ghostface':'url("../../img/DBD_Killer_Ghostface_BG_3216bbee18.png")',
+        'killer-pig':'url("../../img/DBD_Killer_Pig_Amanda_BG_d9a18de70f.png")',
+        'survivor-leon':'url("../../img/DBD_Survivor_Leon_BG_db8a2e5599.png")',
+        'survivor-cheryl':'url("../../img/DBD_Survivor_Cheryl_BG_e874d0a9ff.png")',
         
       },
       fontFamily:{
