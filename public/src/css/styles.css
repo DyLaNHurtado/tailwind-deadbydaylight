@@ -577,6 +577,9 @@ video {
   margin-top: 6rem;
   margin-bottom: 6rem;
 }
+.ml-5 {
+  margin-left: 1.25rem;
+}
 .ml-0 {
   margin-left: 0px;
 }
@@ -1141,6 +1144,10 @@ video {
     margin-right: 4rem;
   }
 
+  .lg\:ml-5 {
+    margin-left: 1.25rem;
+  }
+
   .lg\:mr-12 {
     margin-right: 3rem;
   }
@@ -1213,6 +1220,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
   .lg\:flex-col {
     flex-direction: column;
   }
@@ -1223,6 +1234,10 @@ video {
 
   .lg\:justify-center {
     justify-content: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 
   .lg\:space-x-20 > :not([hidden]) ~ :not([hidden]) {
