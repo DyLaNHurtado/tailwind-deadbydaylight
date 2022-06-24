@@ -555,6 +555,10 @@ video {
 .order-1 {
   order: 1;
 }
+.mx-\[3rem\] {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -566,6 +570,12 @@ video {
 .my-24 {
   margin-top: 6rem;
   margin-bottom: 6rem;
+}
+.ml-0 {
+  margin-left: 0px;
+}
+.ml-1 {
+  margin-left: 0.25rem;
 }
 .-mt-64 {
   margin-top: -16rem;
@@ -699,6 +709,14 @@ video {
 .shrink-0 {
   flex-shrink: 0;
 }
+.-translate-y-0\.5 {
+  --tw-translate-y: -0.125rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-translate-y-0 {
+  --tw-translate-y: -0px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -743,8 +761,8 @@ video {
 .justify-around {
   justify-content: space-around;
 }
-.gap-6 {
-  gap: 1.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 .gap-10 {
   gap: 2.5rem;
@@ -966,6 +984,13 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.transition-colors {
+  transition-property: color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition {
   transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -995,6 +1020,11 @@ video {
 .hover\:bg-red-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+}
+
+.hover\:text-red-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1099,6 +1129,14 @@ video {
     margin-right: 4rem;
   }
 
+  .lg\:mr-12 {
+    margin-right: 3rem;
+  }
+
+  .lg\:ml-12 {
+    margin-left: 3rem;
+  }
+
   .lg\:mb-8 {
     margin-bottom: 2rem;
   }
@@ -1107,16 +1145,8 @@ video {
     margin-right: 0px;
   }
 
-  .lg\:ml-12 {
-    margin-left: 3rem;
-  }
-
   .lg\:ml-0 {
     margin-left: 0px;
-  }
-
-  .lg\:mr-12 {
-    margin-right: 3rem;
   }
 
   .lg\:mb-16 {
