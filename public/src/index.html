@@ -60,8 +60,8 @@
                         fill="currentColor"></path>
                 </g>
             </svg></a>
-            <div class="flex fixed xl:relative flex-col xl:flex-row w-full top-12 xl:top-0 xl:bg-transparent bg-gray-900 bg-opacity-90 ">
-                <ul id="menu" class="h-auto w-full items-center justify-center flex flex-col xl:flex-row xl:gap-4 gap-0 uppercase xl:mx-[3rem] mx-auto overflow-hidden select-none relative">
+            <div id="menu" class="w-full fixed xl:relative flex-col xl:flex-row  top-12 xl:top-0 xl:bg-transparent bg-gray-900 bg-opacity-90 transition-all duration-500 xl:flex hidden">
+                <ul class="h-auto items-center justify-center flex flex-col xl:flex-row xl:gap-4 gap-0 uppercase xl:mx-[3rem] w-full mx-auto overflow-hidden select-none relative">
                     <a href="#" class=" w-full xl:w-auto">
                         <li class="inline-block font-black text-gray-100 hover:text-red-500 transition-colors duration-300 lg:mr-12 w-full xl:w-auto p-10 xl:p-0 xl:bg-transparent border-b-2 border-white xl:border-y-0 hover:border-red-600 hover:bg-neutral-900"><span>Home</span></li>
                     </a>
@@ -85,13 +85,15 @@
                         <li class="inline-block font-black text-gray-100 hover:text-red-500 transition-colors duration-300 xl:ml-12 ml-0 w-full xl:w-auto p-10 xl:p-0  border-b-2 border-white xl:border-y-0 hover:border-red-600 hover:bg-neutral-900"><span>Help</span></li>
                     </a>
                 </ul>
-                <a href="#" class=" w-full xl:w-auto">
-                    <div class=" bg-red-600 text-gray-100 text-center hover:bg-red-800 transition duration-500  py-8 text-[1.6rem] font-semibold xl:w-48 px-0 right-click-disabled uppercase w-full mx-auto xl:mt-0 mt-8 hover:border-red-600 ">
+                <a href="#" class="w-full xl:w-auto">
+                    <div class="  bg-red-600 text-gray-100 text-center hover:bg-red-800 transition duration-500  py-8 text-[1.6rem] font-semibold xl:w-48 px-0 right-click-disabled uppercase w-full xl:my-0 my-4 hover:border-red-600 ">
                         PLAY NOW
                     </div>
                 </a>
             </div>
-            
+           <a href="#" id="button-menu" class="absolute right-2 xl:hidden block"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8  fill-slate-900 rounded-full " fill="" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg></i></a>
         </nav>
         
         <div class="flex items-center justify-center">
