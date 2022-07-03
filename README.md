@@ -8,7 +8,6 @@ It is an website made with TailwindCss. With DeadByDaylight aesthetics.
   </p>
 <p>
   <img src="https://laravelnews.imgix.net/images/tailwindcss.png?ixlib=php-3.3.1" width="45%" height="250px" >
-  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp
   <img src="https://raw.githubusercontent.com/DyLaNHurtado/tailwind-deadbydaylight/master/public/img/dbd_keyart.jpg" width="45%" height="250px">
 </p>
 
